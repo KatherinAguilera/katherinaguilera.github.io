@@ -1,0 +1,14 @@
+.Logo{
+  grid-area: Logo;
+  
+}
+.Image{
+  margin: 50px 100px;
+  max-width: 40%;
+  min-width: 20%;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 60% / 0 100%;
+  background: #5cb85c;
+  border: 5px solid white;
+}

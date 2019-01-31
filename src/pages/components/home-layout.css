@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'SourceCodePro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SourceCodePro'),
+      url(/fonts/SourceCodePro-Black.ttf) format('ttf'),
+      url(/fonts/SourceCodePro-Bold.ttf) ,
+      url(/fonts/SourceCodePro-ExtraLight.ttf),
+      url(/fonts/SourceCodePro-Light.ttf),
+      url(/fonts/SourceCodePro-Medium.ttf),
+      url(/fonts/SourceCodePro-Regular.ttf),
+      url(/fonts/SourceCodePro-Semibold.ttf) ;
+}
+body{
+  margin: 0;
+  font-family: SourceCodePro;
+}
+.HomeLayout{
+  display:grid;
+  /* background: linear-gradient(45deg, rgb(170, 241, 135) 0%, rgb(170, 241, 135) 51%, #e2718d 51%,  #e2718d 100%); */
+  grid-template-areas: "Logo Header Header"
+                        "Name Name Contact";
+
+  grid-template-rows: 30% 1fr;
+  grid-template-columns: repeat(3,1fr);
+  height: 100vh;
+  background: url(../../../images/fleck-white.png), linear-gradient(45deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
+  background-repeat: repeat, no-repeat, repeat;
+  background-position: center center, top right, center;
+}

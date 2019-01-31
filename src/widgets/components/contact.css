@@ -1,0 +1,24 @@
+.Contact a{
+  background: linear-gradient(135deg, #e2718d 0%, #e2718d 8%, #e9b921 50%, #e2718d 100%);
+  -webkit-clip-path: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
+  clip-path: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
+  padding: 20px 30px 20px 30px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border: 3px solid white;
+  font-size: 20px; 
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+  align-items: center;
+  width: 30%;
+}
+.Contact{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+img{
+  margin-left:15px; 
+}
