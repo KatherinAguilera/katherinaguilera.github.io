@@ -1,7 +1,7 @@
 .Header{
   grid-area: Header;
   display: grid;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .Header ul {
   display: flex;
@@ -10,7 +10,7 @@
 }
 .Header li{
   padding: 20px 100px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-size: 25px;
   list-style: none;
   font-weight: bold;
@@ -34,4 +34,18 @@ hr {
   border:none;
   height: 2px;
   background: #E97D93;
+}
+
+@media screen and (max-width: 768px)
+{
+.Header li {
+  padding: 0 0;
+}
+.Header ul{
+  display:block;
+  padding: 0;
+}
+.Header li hr{
+  margin:0;
+}
 }

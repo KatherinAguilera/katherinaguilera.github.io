@@ -1,30 +1,119 @@
 @font-face {
   font-family: 'SourceCodePro';
-  font-style: normal;
-  font-weight: 400;
+  font-style: Regular;
   src: local('SourceCodePro'),
-      url(/fonts/SourceCodePro-Black.ttf) format('ttf'),
+      /* url(/fonts/SourceCodePro-Black.ttf) format('ttf'),
       url(/fonts/SourceCodePro-Bold.ttf) ,
       url(/fonts/SourceCodePro-ExtraLight.ttf),
       url(/fonts/SourceCodePro-Light.ttf),
-      url(/fonts/SourceCodePro-Medium.ttf),
+      url(/fonts/SourceCodePro-Medium.ttf), */
       url(/fonts/SourceCodePro-Regular.ttf),
       url(/fonts/SourceCodePro-Semibold.ttf) ;
 }
 body{
   margin: 0;
   font-family: SourceCodePro;
+  overflow-x: hidden;
 }
 .HomeLayout{
   display:grid;
-  /* background: linear-gradient(45deg, rgb(170, 241, 135) 0%, rgb(170, 241, 135) 51%, #e2718d 51%,  #e2718d 100%); */
   grid-template-areas: "Logo Header Header"
                         "Name Name Contact";
-
   grid-template-rows: 30% 1fr;
   grid-template-columns: repeat(3,1fr);
   height: 100vh;
   background: url(../../../images/fleck-white.png), linear-gradient(45deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
   background-repeat: repeat, no-repeat, repeat;
   background-position: center center, top right, center;
+  animation: aitf 18s linear infinite;
+  transform: translate3d(0,0,0);
+}
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+@media screen and (max-width: 1024px)
+{
+  .Header ul{
+  flex-direction: column-reverse;
+  }
+  .Name h1{
+    font-size: 50px;
+    max-width: 85%;
+  }
+  .Name .Description{
+    max-width: 70%;
+    font-size: 28px;
+  }
+  .Job span{
+    font-size: 25px;
+  }
+  .Contact img{
+    height: 30px;
+    width: 30px;
+    margin-left:8px;
+  }
+  .Contact .Buttons{
+    padding: 15px 25px 15px 25px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px)
+{
+  .Header{
+    justify-content: center;
+    align-items: center;
+  }
+  .Header li{
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 520px)
+{
+  .HomeLayout{
+  grid-template-areas: "Logo Header"
+                        "Name Contact";
+                      
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 60% 40%;
+  width: fit-content;
+  }
+  .Contact .Buttons{
+    padding: 10px 8px;
+
+  }
+  .Contact .Buttons span{
+  display:none;
+  }
+  .Contact img{
+    width: 40px;
+    height: 40px;
+  }
+  .Logo .Image{
+    margin: 15px 30px;
+  }
+  .Name{
+   display:block;
+  }
+  .Name h1 {
+    font-size: 30px;
+}
+.Name .Description {
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.Header li a{
+  font-size: 14px;
+}
+.Header li hr{
+  width: 65px;
+}
+.Job{
+  display:flex;
+}
+.Job span{
+  font-size: 15px;
+}
+
 }
