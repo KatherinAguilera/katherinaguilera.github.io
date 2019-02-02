@@ -18,10 +18,12 @@ body{
 .HomeLayout{
   display:grid;
   grid-template-areas: "Logo Header Header"
-                        "Name Name Contact";
-  grid-template-rows: 30% 1fr;
+                        "Name Name Contact"
+                        "About About About";
+
+  grid-template-rows: repeat(3,auto);
   grid-template-columns: repeat(3,1fr);
-  height: 100vh;
+  /* height: 100vh; */
   background: url(../../../images/fleck-white.png), linear-gradient(45deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
   background-repeat: repeat, no-repeat, repeat;
   background-position: center center, top right, center;
@@ -32,6 +34,7 @@ body{
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
+
 @media screen and (max-width: 1024px)
 {
   .Header ul{
@@ -67,16 +70,20 @@ body{
   .Header li{
     margin-bottom: 30px;
   }
+  .HomeLayout{
+    background: url(../../../images/fleck-white.png), linear-gradient(90deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
+  }
 }
 @media screen and (max-width: 520px)
 {
   .HomeLayout{
   grid-template-areas: "Logo Header"
-                        "Name Contact";
-                      
-  grid-template-rows: 20% 80%;
+                        "Name Contact"
+                        "About About";
+  grid-template-rows: repeat(3, auto);
   grid-template-columns: 60% 40%;
   width: fit-content;
+
   }
   .Contact .Buttons{
     padding: 10px 8px;
