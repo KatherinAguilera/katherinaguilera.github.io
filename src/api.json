@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "cover": "../images/Projects/apivue.png",
+      "description": "Api Music, App de buscar y reproducir musica realizada con Vue.js",
+      "src": "https://music-cwsodyikpe.now.sh/"
+    },
+    {
+      "id": 2,
+      "cover": "../images/Projects/redux.png",
+      "description": "Construccion de reproductor de videos realizado con rect.js y redux",
+      "src": "https://katherinaguilera.github.io/redux/"
+    }
+  ]
+}

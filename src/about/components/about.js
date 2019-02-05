@@ -11,7 +11,7 @@ function About (props) {
     <div id="about" className="About">
       {props.children}
 
-      <div className="About-home">
+      <div className="Home-title">
         <h2>Sobre <span>Mí</span></h2>
         <IconHome />
       </div>

@@ -10,6 +10,16 @@
       url(/fonts/SourceCodePro-Regular.ttf),
       url(/fonts/SourceCodePro-Semibold.ttf) ;
 }
+:root{
+  /*Colores*/
+  --background-pink: url(../../../images/fleck-white.png), linear-gradient(45deg,#f9989f 0%,  #e2718d 50% );
+  --background-blue: url(../../../images/fleck-white.png), linear-gradient(45deg, #0b032d 51%,  #113f67 100%);  
+  --border-blue: 10px dotted #0C0832;
+  --border-pink: 10px dotted #e2718d;
+  --padding-icons:30px 22px;
+  --box:2px 5px 5px 2px rgba(0,0,0,0.2);
+  --animation-stars: aitf 18s linear infinite;
+}
 body{
   margin: 0;
   font-family: SourceCodePro;
@@ -19,22 +29,21 @@ body{
   display:grid;
   grid-template-areas: "Logo Header Header"
                         "Name Name Contact"
-                        "About About About";
-
+                        "About About About"
+                        "Portfolio Portfolio Portfolio";
   grid-template-rows: repeat(3,auto);
   grid-template-columns: repeat(3,1fr);
   /* height: 100vh; */
   background: url(../../../images/fleck-white.png), linear-gradient(45deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
   background-repeat: repeat, no-repeat, repeat;
   background-position: center center, top right, center;
-  animation: aitf 18s linear infinite;
+  animation: var(--animation-stars);
   transform: translate3d(0,0,0);
 }
 @keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
-
 @media screen and (max-width: 1024px)
 {
   .Header ul{
@@ -79,7 +88,8 @@ body{
   .HomeLayout{
   grid-template-areas: "Logo Header"
                         "Name Contact"
-                        "About About";
+                        "About About"
+                        "Portfolio Portfolio";
   grid-template-rows: repeat(3, auto);
   grid-template-columns: 60% 40%;
   width: fit-content;

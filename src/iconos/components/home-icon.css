@@ -1,5 +1,4 @@
 
-
 .IconHome img{
   animation: infinite 2s linear home;
 }
@@ -21,5 +20,11 @@
   }
   100%{
     transform: translateY(0)
+  }
+}
+@media screen and (max-width: 520px){
+  .IconHome img{
+    width: 40px;
+    height: 40px;
   }
 }

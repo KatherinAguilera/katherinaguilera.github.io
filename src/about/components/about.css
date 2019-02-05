@@ -1,14 +1,13 @@
 .About{
   grid-area: About;
-  background: url(../../../images/fleck-white.png), linear-gradient(45deg, #f9989f 0%,  #e2718d );
+  background: var(--background-pink);
   margin-top: 50px;
   /* background: linear-gradient(135deg, #e2718d 0%, #e2718d 8%, #e9b921 50%, #e2718d 100%); */
-
-  border-top: 10px dotted #0C0832;
-  animation: aitf 18s linear infinite;
+  border-top: var(--border-blue);
+  animation: var(--animation-stars);
   transform: translate3d(0,0,0);
 }
-.About-home{
+.Home-title{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -30,15 +29,15 @@ h2{
 h2  span{
   color: #E8B723;
 }
+.Skill, .Skill-r{
+  box-shadow: var(--box);
+  padding: var(--padding-icons);
+}
 .Skill{
   background:  #0b032d ;
-  box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.2);
-  padding: 10px 22px;
 }
 .Skill-r{
   background:  #E8B723 ;
-  box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.2);
-  padding: 10px 22px;
 }
 .Skills{
   display: grid;
@@ -47,6 +46,7 @@ h2  span{
   justify-content: center;
   grid-auto-flow: dense;
   margin-top: 50px;
+  margin-bottom:50px;
 }
 .Skill-r img, .Skill img{
   margin-left: 80px;
@@ -56,7 +56,7 @@ h2  span{
   border-bottom: 3px solid #e2718d;
 }
 .Skill-r h3{
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #e2718d;
 }
 .Skill p{
   color:white;

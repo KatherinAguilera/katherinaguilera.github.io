@@ -1,0 +1,22 @@
+.Portfolio{
+  grid-area: Portfolio;
+  background: var(--background-blue);
+  padding-top: 10px;
+  border-top: var(--border-pink);
+  animation: var(--animation-stars);
+}
+.h2-portfolio{
+  border: 3px solid #e2718d;
+}
+.Projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  grid-gap: 20px;
+  justify-content: center;
+  grid-auto-flow: dense;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.Project img{
+  max-width: 100%;
+}

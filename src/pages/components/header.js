@@ -9,7 +9,7 @@ function Header (props) {
         <a href="#about">Sobre Mí</a><hr/>
       </li>
       <li>
-        <a href="#">Portafolio</a><hr/>
+        <a href="#portfolio">Portafolio</a><hr/>
       </li>
     </ul>
     </div>
