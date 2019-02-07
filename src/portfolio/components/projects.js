@@ -1,15 +1,19 @@
 import React from 'react';
-
+import './portfolio.css';
 function Projects(props) {
   return (
-    <div>
-    <div className="Projects">
+    <div className="Section">
       <div className="Project">
-        <img src={props.cover}/>
-        <p>{props.description}</p>
-        <a href={props.src}>Ver Link</a>
+      <figure>
+        <img src={props.cover}
+          width="350"
+          height="350"
+        />
+        </figure>
+        <p>{props.description}
+        <a href={props.src} target="_blank">Ver Link</a>
+        </p>
       </div>
-    </div>
     </div>
   )
 }

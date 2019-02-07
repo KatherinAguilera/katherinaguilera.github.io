@@ -33,10 +33,14 @@ body{
                         "Portfolio Portfolio Portfolio";
   grid-template-rows: repeat(3,auto);
   grid-template-columns: repeat(3,1fr);
-  /* height: 100vh; */
-  background: url(../../../images/fleck-white.png), linear-gradient(45deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
+  height: auto;
+  background: url(../../../images/fleck-white.png), linear-gradient(80deg, #f9989f 0%,  #e2718d 51%, #0b032d 51.1%,  #113f67 100%);
+  /* background: linear-gradient(60%, #f9989f 0%,  #e2718d 50%, #0b032d 51%,  #113f67 100%); */
+  /* background:url(../../../images/fleck-white.png),url(../../../images/bg.svg),#e2718d; */
   background-repeat: repeat, no-repeat, repeat;
-  background-position: center center, top right, center;
+  transform:rotate(90deg);
+  /* background-size:     contain; */
+  background-position: center;
   animation: var(--animation-stars);
   transform: translate3d(0,0,0);
 }
@@ -81,6 +85,10 @@ body{
   }
   .HomeLayout{
     background: url(../../../images/fleck-white.png), linear-gradient(90deg, #f9989f 0%,  #e2718d 51%, #0b032d 51%,  #113f67 100%);
+    height: auto;
+  }
+  .Projects{
+    margin-top:20px;
   }
 }
 @media screen and (max-width: 520px)
