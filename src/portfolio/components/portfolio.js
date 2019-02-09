@@ -16,6 +16,15 @@ function Portfolio (props) {
             return <Projects key={item.id} {...item} />
           })
         }
+      <div className="Moon">
+        <h4>Katherine Aguilera 2019 - Design & Development
+          <p>Made with ReactJs </p>
+        </h4>
+        <div className="Moon-fase"> </div>
+      </div>
+      <div className="HomeFooter">
+      <IconHome />
+      </div>
       </div>
     </div>
   )

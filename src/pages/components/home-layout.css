@@ -1,3 +1,4 @@
+/**********HOMELAYOUT*****************/
 @font-face {
   font-family: 'SourceCodePro';
   font-style: Regular;
@@ -18,12 +19,24 @@
   --border-pink: 10px dotted #e2718d;
   --padding-icons:30px 22px;
   --box:2px 5px 5px 2px rgba(0,0,0,0.2);
-  --animation-stars: aitf 18s linear infinite;
+  --animation-stars: aitf 28s linear infinite;
+  --border-bottom:3px solid #e2718d;
 }
 body{
   margin: 0;
   font-family: SourceCodePro;
   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #E67890;
+
+}
+::-webkit-scrollbar-track {
+  background-color: #0D1841;
+  border-radius: 10px;
 }
 .HomeLayout{
   display:grid;
@@ -35,11 +48,8 @@ body{
   grid-template-columns: repeat(3,1fr);
   height: auto;
   background: url(../../../images/fleck-white.png), linear-gradient(80deg, #f9989f 0%,  #e2718d 51%, #0b032d 51.1%,  #113f67 100%);
-  /* background: linear-gradient(60%, #f9989f 0%,  #e2718d 50%, #0b032d 51%,  #113f67 100%); */
-  /* background:url(../../../images/fleck-white.png),url(../../../images/bg.svg),#e2718d; */
   background-repeat: repeat, no-repeat, repeat;
   transform:rotate(90deg);
-  /* background-size:     contain; */
   background-position: center;
   animation: var(--animation-stars);
   transform: translate3d(0,0,0);
@@ -101,11 +111,9 @@ body{
   grid-template-rows: repeat(3, auto);
   grid-template-columns: 60% 40%;
   width: fit-content;
-
   }
   .Contact .Buttons{
     padding: 10px 8px;
-
   }
   .Contact .Buttons span{
   display:none;
@@ -118,27 +126,26 @@ body{
     margin: 15px 30px;
   }
   .Name{
-   display:block;
+  display:block;
   }
   .Name h1 {
     font-size: 30px;
-}
-.Name .Description {
-  font-size: 14px;
-  max-width: 100%;
-}
-
-.Header li a{
-  font-size: 14px;
-}
-.Header li hr{
-  width: 65px;
-}
-.Job{
-  display:flex;
-}
-.Job span{
-  font-size: 15px;
-}
+  }
+  .Name .Description {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .Header li a{
+    font-size: 14px;
+  }
+  .Header li hr{
+    width: 65px;
+  }
+  .Job{
+    display:flex;
+  }
+  .Job span{
+    font-size: 15px;
+  }
 
 }

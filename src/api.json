@@ -3,13 +3,13 @@
     {
       "id": 1,
       "cover": "../images/Projects/apivueP.png",
-      "description": "Api Music, App de buscar y reproducir musica realizada con Vue.js",
+      "description": "Api Music, App de buscar y reproducir música realizada con Vue.js",
       "src": "https://music-cwsodyikpe.now.sh/"
     },
     {
       "id": 2,
       "cover": "../images/Projects/redux.png",
-      "description": "Construccion de reproductor de videos realizado con rect.js y redux",
+      "description": "Construcción de reproductor de videos realizado con ReactJs y redux",
       "src": "https://katherinaguilera.github.io/redux/"
     },
     {
@@ -27,19 +27,19 @@
     {
       "id": 5,
       "cover": "../images/Projects/video.png",
-      "description": "Landing Play Video",
+      "description": "Landing Play Video.",
       "src": "https://katherinaguilera.github.io/PlayVideo/"
     },
     {
       "id": 6,
       "cover": "../images/Projects/apivue.png",
-      "description": "Last.fm Api, App que mostrara de acuerdo a la api de last.fm el top de musica de acuerdo al pais seleccionado.",
+      "description": "Last.fm Api, App que mostrara de acuerdo a la api de last.fm el top de música de acuerdo al país seleccionado.",
       "src": "https://katherinaguilera.github.io/PlayVideo/"
     },
     {
       "id": 7,
       "cover": "../images/Projects/anime.png",
-      "description": "Landing Series Anime",
+      "description": "Landing Series Anime.",
       "src": "https://katherinaguilera.github.io/anime/"
     },
     {

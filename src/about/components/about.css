@@ -1,8 +1,8 @@
+/**********ABOUT STYLES*****************/
 .About{
   grid-area: About;
   background: var(--background-pink);
   margin-top: 50px;
-  /* background: linear-gradient(135deg, #e2718d 0%, #e2718d 8%, #e9b921 50%, #e2718d 100%); */
   border-top: var(--border-blue);
   animation: var(--animation-stars);
   transform: translate3d(0,0,0);
@@ -14,13 +14,8 @@
 }
 h2{
   font-size: 40px;
-  /* border-radius: 0 40% / 0 100%; */
-  /* background: linear-gradient(45deg, #0b032d 51%,  #113f67 100%); */
-  /* clip-path: polygon(26px 0%, calc(100% - 26px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px); */
-  /* background: linear-gradient(135deg, #e2718d 0%, #e2718d 8%, #e9b921 50%, #e2718d 100%); */
   -webkit-clip-path: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
   clip-path: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
-  /* border: 8px solid #71E2A6; */
   color:#0b032d;
   padding: 3px 5px;
   border: 3px solid #0b032d;
@@ -53,16 +48,14 @@ h2  span{
 }
 .Skill h3{
   color:white;
-  border-bottom: 3px solid #e2718d;
+  border-bottom: var(--border-bottom);
 }
 .Skill-r h3{
-  border-bottom: 3px solid #e2718d;
+  border-bottom: var(--border-bottom);
 }
 .Skill p{
   color:white;
-
 }
-
 @media screen and (max-width: 768px)
 {
   h2{

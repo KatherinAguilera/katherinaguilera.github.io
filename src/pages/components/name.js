@@ -7,7 +7,7 @@ function Name (props) {
       <p className="Job">
       <span className="Front">Frontend </span> 
       <span className="Dev">Developer</span></p>
-      <p className="Description">Actualmente Ingeniera de sistemas, apasionada por el gran mundo de la tecnología, y las increibles cosas que se pueden hacer a traves de la programación.</p>
+      <p className="Description">Actualmente Ingeniera de sistemas, apasionada por el gran mundo de la tecnología, y las increibles cosas que se pueden hacer a través de la programación.</p>
       {props.children}
   </div>
   )

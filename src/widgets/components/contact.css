@@ -1,3 +1,4 @@
+  /********CCONTACTO**************/
 .Contact a{
   background: linear-gradient(135deg, #e2718d 0%, #e2718d 8%, #e9b921 50%, #e2718d 100%);
   -webkit-clip-path: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);

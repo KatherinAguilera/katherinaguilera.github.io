@@ -1,25 +1,21 @@
+/**********HEADER STYLES*****************/
 .Header{
   grid-area: Header;
   display: grid;
-  /* justify-content: space-around; */
 }
 .Header ul {
   display: flex;
   align-items:center;
-
 }
 .Header li{
   padding: 20px 100px;
-  /* margin-left: 20px; */
   font-size: 25px;
   list-style: none;
   font-weight: bold;
-
 }
 a{
   color:white;
   text-decoration: none;
-
 }
 li a:hover{
   background: white;
@@ -27,7 +23,6 @@ li a:hover{
   padding: 5px 8px 5px 8px;
   transition: .5s;
   border-radius: 40% 0 / 20% 0;
-
 }
 hr {
   width: 150px;
@@ -35,17 +30,16 @@ hr {
   height: 2px;
   background: #E97D93;
 }
-
 @media screen and (max-width: 768px)
 {
-.Header li {
-  padding: 0 0;
-}
-.Header ul{
-  display:block;
-  padding: 0;
-}
-.Header li hr{
-  margin:0;
-}
+  .Header li {
+    padding: 0 0;
+  }
+  .Header ul{
+    display:block;
+    padding: 0;
+  }
+  .Header li hr{
+    margin:0;
+  }
 }
