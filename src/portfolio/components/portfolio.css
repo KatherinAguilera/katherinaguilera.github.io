@@ -15,6 +15,7 @@ h4 p{
   padding-top: 10px;
   border-top: var(--border-pink);
   animation: var(--animation-stars);
+  height: auto;
 }
 .h2-portfolio{
   border: var(--border-bottom);
@@ -137,6 +138,13 @@ h4 p{
 
 @media screen and (max-width: 768px){
   .Projects{
+    grid-template-columns: repeat(auto-fit, 315px);
     margin-top:20px;
+  }
+  .Moon{
+    left:70px;
+  }
+  .Project figure:hover{
+    transform:scale(1);
   }
 }

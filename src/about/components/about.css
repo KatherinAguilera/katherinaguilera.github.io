@@ -1,11 +1,12 @@
 /**********ABOUT STYLES*****************/
 .About{
   grid-area: About;
-  background: var(--background-pink);
+  background: url(../../../images/fleck-white.png), linear-gradient(45deg,#f9989f 0%,  #e2718d 50% );
   margin-top: 50px;
   border-top: var(--border-blue);
   animation: var(--animation-stars);
   transform: translate3d(0,0,0);
+  height: auto;
 }
 .Home-title{
   display: flex;
@@ -62,6 +63,7 @@ h2  span{
     font-size: 30px;
   }
   .Skills{
+    grid-template-columns: repeat(auto-fit, 300px);
     margin-top: 0;
   }
 }

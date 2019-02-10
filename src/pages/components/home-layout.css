@@ -26,6 +26,7 @@ body{
   margin: 0;
   font-family: SourceCodePro;
   overflow-x: hidden;
+  background: #e2718d;
 }
 ::-webkit-scrollbar {
   background-color: #000000;
@@ -46,13 +47,12 @@ body{
                         "Portfolio Portfolio Portfolio";
   grid-template-rows: repeat(3,auto);
   grid-template-columns: repeat(3,1fr);
-  height: auto;
+  /* height: auto; */
   background: url(../../../images/fleck-white.png), linear-gradient(80deg, #f9989f 0%,  #e2718d 51%, #0b032d 51.1%,  #113f67 100%);
   background-repeat: repeat, no-repeat, repeat;
-  transform:rotate(90deg);
   background-position: center;
   animation: var(--animation-stars);
-  transform: translate3d(0,0,0);
+  /* transform: translate3d(0,0,0); */
 }
 @keyframes aitf {
 	0% { background-position: 0% 50%; }
@@ -147,5 +147,5 @@ body{
   .Job span{
     font-size: 15px;
   }
-
 }
+
