@@ -105,6 +105,12 @@
       "id": 18,
       "cover": "../images/Projects/arte.png",
       "description": "Maquetacion Idartes"
+    },
+    {
+      "id": 19,
+      "cover": "../images/Projects/moviesApp.jpeg",
+      "description": "Aplicacion movil realizada en React Native, consulta la mejores peliculas",
+      "src": "https://expo.io/@ktyagui/Movies"
     }
   ]
 }
