@@ -19,7 +19,7 @@ function About (props) {
         <div className="Skill">
           <img src={ analisis } width="50" height="50"/>
           <h3>Análisis</h3>
-          <p>Levantamiento de requerimientos, metodologías ágiles SCRUM, UML, Casos de uso, diagramación de flujo de datos, Documentación de procesos y proyectos,Experiencia en el manejo de personas para asesorías y enseñanza en áreas de sistemas y diseño.</p>
+          <p>Levantamiento de requerimientos, metodologías ágiles SCRUM, UML, Casos de uso, diagramación de flujo de datos, Documentación de procesos y proyectos, experiencia en el manejo de personas para asesorías y enseñanza en áreas de sistemas.</p>
         </div>
         <div className="Skill-r">
           <img src={ frontend } width="50" height="50"/>

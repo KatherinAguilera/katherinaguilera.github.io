@@ -111,6 +111,12 @@
       "cover": "../images/Projects/moviesApp.jpeg",
       "description": "Aplicacion movil realizada en React Native, consulta la mejores peliculas",
       "src": "https://expo.io/@ktyagui/Movies"
+    },
+    {
+      "id": 20,
+      "cover": "../images/Projects/appmsn.png",
+      "description": "Proyecto del curso de Angular por platzi.",
+      "src": "https://platzinger-28351.firebaseapp.com/"
     }
   ]
 }
