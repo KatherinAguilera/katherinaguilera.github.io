@@ -15,19 +15,19 @@
     {
       "id": 3,
       "cover": "../images/Projects/pirlov.png",
-      "description": "Pirlov Ecommerce",
+      "description": "Pirlov Ecommerce, Frontend",
       "src": "https://www.prilov.com/"
     },
     {
       "id": 4,
       "cover": "../images/Projects/beauty.png",
-      "description": "JsBeauty Template",
+      "description": "JsBeauty Template Responsive",
       "src": "https://katherinaguilera.github.io/TemplateJSBeauty/"
     },
     {
       "id": 5,
       "cover": "../images/Projects/video.png",
-      "description": "Landing Play Video.",
+      "description": "Landing Play Video, con CSS grid layout",
       "src": "https://katherinaguilera.github.io/PlayVideo/"
     },
     {
@@ -109,14 +109,26 @@
     {
       "id": 19,
       "cover": "../images/Projects/moviesApp.jpeg",
-      "description": "Aplicacion movil realizada en React Native, consulta la mejores peliculas",
+      "description": "Aplicacion movil realizada en React Native, consulta las mejores peliculas",
       "src": "https://expo.io/@ktyagui/Movies"
     },
     {
       "id": 20,
       "cover": "../images/Projects/appmsn.png",
-      "description": "Proyecto del curso de Angular por platzi.",
+      "description": "Proyecto del curso de Angular 6 by platzi.",
       "src": "https://platzinger-28351.firebaseapp.com/"
+    },
+    {
+      "id": 21,
+      "cover": "../images/Projects/recipes.png",
+      "description": "Consumiendo API para una app con PWA y ReactJS",
+      "src": "https://recipes-k.now.sh/"
+    },
+    {
+      "id": 22,
+      "cover": "../images/Projects/badge.jpg",
+      "description": "CRUD de Badges almacenadas en un JSON, hecho en react.js",
+      "src": "https://katherinaguilera.github.io/react-badges/"
     }
   ]
 }
