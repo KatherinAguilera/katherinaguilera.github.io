@@ -129,6 +129,18 @@
       "cover": "../images/Projects/badge.jpg",
       "description": "CRUD de Badges almacenadas en un JSON, hecho en react.js",
       "src": "https://katherinaguilera.github.io/react-badges/"
+    },
+    {
+      "id": 23,
+      "cover": "../images/Projects/rooms.png",
+      "description": "Proyecto hecho con VueJs y Firebase",
+      "src": "https://rooms-vue.herokuapp.com/"
+    },
+    {
+      "id": 24,
+      "cover": "../images/Projects/travel-landing.png",
+      "description": "Landing de Viajes",
+      "src": "https://katherinaguilera.github.io/landing-travel/"
     }
   ]
 }
