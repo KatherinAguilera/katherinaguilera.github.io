@@ -2,142 +2,148 @@
   "projects": [
     {
       "id": 1,
+      "cover": "../images/Projects/gatsby.jpg",
+      "description": "Desarrollo de aplicación web hecha con Gatsby",
+      "src": "https://swag-katherine.netlify.com/"
+    },
+    {
+      "id": 2,
       "cover": "../images/Projects/apivueP.png",
       "description": "Api Music, App de buscar y reproducir música realizada con Vue.js",
       "src": "https://music-cwsodyikpe.now.sh/"
     },
     {
-      "id": 2,
+      "id": 3,
       "cover": "../images/Projects/redux.png",
       "description": "Construcción de reproductor de videos realizado con ReactJs y redux",
       "src": "https://katherinaguilera.github.io/redux/"
     },
     {
-      "id": 3,
+      "id": 4,
       "cover": "../images/Projects/pirlov.png",
       "description": "Pirlov Ecommerce, Frontend",
       "src": "https://www.prilov.com/"
     },
     {
-      "id": 4,
+      "id": 5,
       "cover": "../images/Projects/beauty.png",
       "description": "JsBeauty Template Responsive",
       "src": "https://katherinaguilera.github.io/TemplateJSBeauty/"
     },
     {
-      "id": 5,
+      "id": 6,
       "cover": "../images/Projects/video.png",
       "description": "Landing Play Video, con CSS grid layout",
       "src": "https://katherinaguilera.github.io/PlayVideo/"
     },
     {
-      "id": 6,
+      "id": 7,
       "cover": "../images/Projects/apivue.png",
       "description": "Last.fm Api, App que mostrara de acuerdo a la api de last.fm el top de música de acuerdo al país seleccionado.",
       "src": "https://katherinaguilera.github.io/PlayVideo/"
     },
     {
-      "id": 7,
+      "id": 8,
       "cover": "../images/Projects/anime.png",
       "description": "Landing Series Anime.",
       "src": "https://katherinaguilera.github.io/anime/"
     },
     {
-      "id": 8,
+      "id": 9,
       "cover": "../images/Projects/landingpage.png",
       "description": "Landing Page para Tita Media.",
       "src": "https://katherinaguilera.github.io/landingTita/"
     },
     {
-      "id": 9,
+      "id": 10,
       "cover": "../images/Projects/cat.jpg",
       "description": "Web que muestra los gatos y perros mas famosos de internet.",
       "src": "http://katherinaguilera.github.io/GatosyPerrosFamosos/"
     },
     {
-      "id": 10,
+      "id": 11,
       "cover": "../images/Projects/champions.png",
       "description": "Especial Champions League, Para Semana.com",
       "src": "http://especiales.semana.com/champions-league/"
     },
     {
-      "id": 11,
+      "id": 12,
       "cover": "../images/Projects/minas.png",
       "description": "Especial Minas antipersonales, Para Semana.com",
       "src": "http://especiales.semana.com/minas-antipersonales/"
     },
     {
-      "id": 12,
+      "id": 13,
       "cover": "../images/Projects/tumaco.png",
       "description": "Especial Tumaco, Para Semana.com",
       "src": "http://especiales.semana.com/tumaco/index.html"
     },
     {
-      "id": 13,
+      "id": 14,
       "cover": "../images/Projects/serpilo.png",
       "description": "Especial SerPilo paga, Para Semana.com",
       "src": "http://especiales.semana.com/ser-pilo-paga/"
     },
     {
-      "id": 14,
+      "id": 15,
       "cover": "../images/Projects/duque.png",
       "description": "Duque Travel's. Aplicación móvil para parque turístico. Diseño y desarrollo.",
       "src": "https://katherinaguilera.github.io/DuqueTravels/assets/main.html"
     },
     {
-      "id": 15,
+      "id": 16,
       "cover": "../images/Projects/cmpc.png",
       "description": "Pagina web Cmpc",
       "src": "https://www.cmpc.com/"
     },
     {
-      "id": 16,
+      "id": 17,
       "cover": "../images/Projects/drypers.jpg",
       "description": "Página web de la empresa Drypers. Desarrollo",
       "src": "http://protisa.co/sites-protisacol2020/drypersco"
     },
     {
-      "id": 17,
+      "id": 18,
       "cover": "../images/Projects/protisas.png",
       "description": "Informes Coorporativos, Aplicación en PHP para consultar informes en el área administrativa"
     },
     {
-      "id": 18,
+      "id": 19,
       "cover": "../images/Projects/arte.png",
       "description": "Maquetacion Idartes"
     },
     {
-      "id": 19,
+      "id": 20,
       "cover": "../images/Projects/moviesApp.jpeg",
       "description": "Aplicacion movil realizada en React Native, consulta las mejores peliculas",
       "src": "https://expo.io/@ktyagui/Movies"
     },
     {
-      "id": 20,
+      "id": 21,
       "cover": "../images/Projects/appmsn.png",
       "description": "Proyecto del curso de Angular 6 by platzi.",
       "src": "https://platzinger-28351.firebaseapp.com/"
     },
     {
-      "id": 21,
+      "id": 22,
       "cover": "../images/Projects/recipes.png",
       "description": "Consumiendo API para una app con PWA y ReactJS",
       "src": "https://recipes-k.now.sh/"
     },
     {
-      "id": 22,
+      "id": 23,
       "cover": "../images/Projects/badge.jpg",
       "description": "CRUD de Badges almacenadas en un JSON, hecho en react.js",
       "src": "https://katherinaguilera.github.io/react-badges/"
     },
     {
-      "id": 23,
+      "id": 24,
       "cover": "../images/Projects/rooms.png",
       "description": "Proyecto hecho con VueJs y Firebase",
       "src": "https://rooms-vue.herokuapp.com/"
     },
     {
-      "id": 24,
+      "id": 25,
       "cover": "../images/Projects/travel-landing.png",
       "description": "Landing de Viajes",
       "src": "https://katherinaguilera.github.io/landing-travel/"
