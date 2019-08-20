@@ -147,6 +147,12 @@
       "cover": "../images/Projects/travel-landing.png",
       "description": "Landing de Viajes",
       "src": "https://katherinaguilera.github.io/landing-travel/"
+    },
+    {
+      "id": 26,
+      "cover": "../images/Projects/petgram.jpg",
+      "description": "Petgram with React.js",
+      "src": "https://petgram.ktyagui.now.sh"
     }
   ]
 }
