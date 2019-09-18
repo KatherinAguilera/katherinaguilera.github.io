@@ -43,6 +43,12 @@
       "src": "https://katherinaguilera.github.io/PlayVideo/"
     },
     {
+      "id": 27,
+      "cover": "../images/Projects/playvideoredux.jpg",
+      "description": "SPA de aplicacion con Redux y React Router",
+      "src": "https://playvideosreduxrouter.netlify.com"
+    },
+    {
       "id": 8,
       "cover": "../images/Projects/anime.png",
       "description": "Landing Series Anime.",
