@@ -17,7 +17,7 @@ function Portfolio (props) {
           })
         }
       <div className="Moon">
-        <h4>Katherine Aguilera 2019 - Design & Development
+        <h4>Katherine Aguilera 2020 - Design & Development
           <p>Made with ReactJs </p>
         </h4>
         <div className="Moon-fase"> </div>

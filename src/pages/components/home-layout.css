@@ -21,6 +21,7 @@
   --box:2px 5px 5px 2px rgba(0,0,0,0.2);
   --animation-stars: aitf 28s linear infinite;
   --border-bottom:3px solid #e2718d;
+  --border-clip: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
 }
 body{
   margin: 0;
@@ -100,6 +101,22 @@ body{
   .Projects{
     margin-top:20px;
   }
+  .Name h1 {
+    border-top: 4px dotted #ffffff;
+    border-left: 4px dotted #ffffff;
+    background: #00000024;
+    padding: 0.5rem;
+    clip-path: var(--border-clip);
+  }
+  .Name .Description {
+    max-width: 100%;
+    background: #00000024;
+    padding: 0.5rem;
+    border-right: 4px dotted #ffffff;
+    border-bottom: 4px dotted #ffffff;
+    clip-path: var(--border-clip);
+    margin-left: 24px;
+  }
 }
 @media screen and (max-width: 520px)
 {
@@ -129,17 +146,28 @@ body{
   display:block;
   }
   .Name h1 {
-    font-size: 30px;
+    font-size: 26px;
+    border-top: 4px dotted #ffffff;
+    border-left: 4px dotted #ffffff;
+    background: #00000024;
+    padding: 0.5rem;
+    clip-path: var(--border-clip);
   }
   .Name .Description {
     font-size: 14px;
     max-width: 100%;
+    background: #00000024;
+    padding: 0.5rem;
+    border-right: 4px dotted #ffffff;
+    border-bottom: 4px dotted #ffffff;
+    clip-path: var(--border-clip);
+    margin-left: 0;
   }
   .Header li a{
     font-size: 14px;
   }
   .Header li hr{
-    width: 65px;
+    width: auto;
   }
   .Job{
     display:flex;

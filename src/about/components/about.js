@@ -24,7 +24,7 @@ function About (props) {
         <div className="Skill-r">
           <img src={ frontend } width="50" height="50"/>
           <h3>Desarrollo Frontend</h3>
-          <p>HTML5, CSS3, JavaScript, jquery, Responsive design, RactJs, React Native, PhoneGap, jQuery mobile, stylus, Sass, Gulp, Bootstrap, Webpack. Manejo de Google tag manager, Vuejs, UX/UI.</p>
+          <p>HTML5, CSS3, JavaScript, jquery, Responsive design, RactJs, React Native, Angular, PhoneGap, jQuery mobile, stylus, Sass, Gulp, Bootstrap, Webpack. Manejo de Google tag manager, Vuejs, UX/UI.</p>
         </div>
         <div className="Skill">
           <img src={ backend } width="50" height="50"/>
