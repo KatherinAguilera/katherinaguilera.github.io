@@ -159,6 +159,36 @@
       "cover": "../images/Projects/petgram.jpg",
       "description": "Petgram with React.js",
       "src": "https://petgram.ktyagui.now.sh"
+    },
+    {
+      "id": 27,
+      "cover": "../images/Projects/reactVotes.png",
+      "description": "Landing de votos hecha con react",
+      "src": "https://test-katherine.netlify.app/"
+    },
+    {
+      "id": 28,
+      "cover": "../images/Projects/ricky-n-morty.png",
+      "description": "Api de ricky and morty con react",
+      "src": "https://katherinaguilera.github.io/rick-and-morty/"
+    },
+    {
+      "id": 29,
+      "cover": "../images/Projects/AxitLanding.png",
+      "description": "Landing Axit",
+      "src": "https://katherinaguilera.github.io/Axit-Landing/"
+    },
+    {
+      "id": 30,
+      "cover": "../images/Projects/formVehicle.png",
+      "description": "Consimiendo API con JavaScript Vanilla",
+      "src": "https://katherinaguilera.github.io/Axit-Landing/"
+    },
+    {
+      "id": 31,
+      "cover": "../images/Projects/celuMobile.png",
+      "description": "CeluMobile (fromulario con validaciones)",
+      "src": "https://katherinaguilera.github.io/Axit-Landing/"
     }
   ]
 }
