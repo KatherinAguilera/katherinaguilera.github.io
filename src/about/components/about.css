@@ -2,7 +2,7 @@
 .About{
   grid-area: About;
   background: url(../../../images/fleck-white.png), linear-gradient(45deg,#f9989f 0%,  #e2718d 50% );
-  margin-top: 50px;
+  margin-top: 220px;
   border-top: var(--border-blue);
   animation: var(--animation-stars);
   transform: translate3d(0,0,0);
@@ -42,7 +42,7 @@ h2  span{
   justify-content: center;
   grid-auto-flow: dense;
   margin-top: 50px;
-  margin-bottom:50px;
+  margin-bottom:200px;
 }
 .Skill-r img, .Skill img{
   margin-left: 80px;
@@ -65,5 +65,9 @@ h2  span{
   .Skills{
     grid-template-columns: repeat(auto-fit, 300px);
     margin-top: 0;
+    margin-bottom:50px;
+  }
+  .About{
+    margin-top: 50px;
   }
 }
