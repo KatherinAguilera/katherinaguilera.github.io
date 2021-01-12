@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": 33,
+      "cover": "../images/Projects/pokeapi.png",
+      "description": "Buscador de pokemones, agregando favoritos, y tema dark/light mediante Api de Pokemon con React hooks",
+      "src": "https://pokemon-api-hooks.netlify.app/"
+    },
+    {
       "id": 1,
       "cover": "../images/Projects/gatsby.jpg",
       "description": "Desarrollo de aplicación web hecha con Gatsby",
