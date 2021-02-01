@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": 34,
+      "cover": "../images/Projects/TechStore.png",
+      "description": "Tienda tech con react hooks",
+      "src": "https://conf-302819.web.app/"
+    },
+    {
       "id": 33,
       "cover": "../images/Projects/pokeapi.png",
       "description": "Buscador de pokemones, agregando favoritos, y tema dark/light mediante Api de Pokemon con React hooks",
