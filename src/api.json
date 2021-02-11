@@ -22,7 +22,7 @@
       "id": 2,
       "cover": "../images/Projects/apivueP.png",
       "description": "Api Music, App de buscar y reproducir música realizada con Vue.js",
-      "src": "https://music-cwsodyikpe.now.sh/"
+      "src": "https://music-vue.netlify.app/"
     },
     {
       "id": 3,
