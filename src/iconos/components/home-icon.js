@@ -11,6 +11,7 @@ function IconHome(props) {
         src={home}
         width="70"
         height="70"
+        alt="Home"
       />
       </a>
     </div>

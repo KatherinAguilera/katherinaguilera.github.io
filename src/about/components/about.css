@@ -24,6 +24,11 @@ h2{
 }
 h2  span{
   color: #E8B723;
+  background: #0b032d;
+  border-radius: 15% 0 / 20% 0;
+  opacity: .8;
+  padding: 2px;
+
 }
 .Skill, .Skill-r{
   box-shadow: var(--box);

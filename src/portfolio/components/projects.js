@@ -8,6 +8,7 @@ function Projects(props) {
         <img src={props.cover}
           width="350"
           height="350"
+          alt="Imagen del proyecto"
         />
         </figure>
         <p>{props.description}

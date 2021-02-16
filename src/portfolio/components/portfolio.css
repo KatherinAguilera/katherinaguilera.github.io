@@ -3,11 +3,13 @@ h4{
   font-size: 13px;
   text-align: center;
   margin: 60px 20px;
-  color:#E77991;
+  color:#0b032d;
 }
 h4 p{
-  color: white;
-  background: #E77991;
+  color: #0b032d;
+  background: linear-gradient(205deg, #e2718d 0%, #f9989f 50%);
+  /* background: url(../../../images/fleck-white.png), linear-gradient(45deg, #0b032d 51%, #113f67 100%); */
+
 }
 .Portfolio{
   grid-area: Portfolio;
@@ -59,7 +61,7 @@ h4 p{
 .Project a{
   background:#e9b921;
   text-align: end;
-  color: white;
+  color: #0b032d;
   width: 100px;
   margin-left: 15px;
   border-radius: 40% 0 / 20% 0;

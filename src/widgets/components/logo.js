@@ -7,6 +7,7 @@ function Logo (props) {
       <img 
         className="Image" 
         src={logo}
+        alt="Mi foto"
         />
         
     {props.children}
