@@ -16,6 +16,8 @@
 }
 .Job .Dev{
   background: #E8B723;
+  color: #0b0731;
+  font-weight: 600;
   padding: 8px;
     margin-left: 6px;
 }
