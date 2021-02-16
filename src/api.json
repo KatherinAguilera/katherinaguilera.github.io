@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": 35,
+      "cover": "../images/Projects/ionic.png",
+      "description": "App de música realizada con ionic y angular",
+      "src": "https://drive.google.com/file/d/1z6Pd8fZBxaqyIUClXs40W0wDz80PHtLB/view?usp=sharing/"
+    },
+    {
       "id": 34,
       "cover": "../images/Projects/TechStore.png",
       "description": "Tienda tech con react hooks",
