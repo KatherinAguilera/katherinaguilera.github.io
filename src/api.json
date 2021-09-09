@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "id": 38,
+      "cover": "../images/Projects/appConjuntos.png",
+      "description": "Participación como Frontend en la APP Jelpit Conjuntos con tecnologías como Ionic, React, Sass, metodología BEM",
+      "src": "https://play.google.com/store/apps/details?id=com.soluciones.jelpit.conjuntos.residente&hl=es_CO&gl=US"
+    },
+    {
+      "id": 37,
+      "cover": "../images/Projects/appBolivar.jpg",
+      "description": "Participación como Frontend en el proyecto Bolívar conmigo con tecnologías como Ionic, Angular, Sass, metodología BEM",
+      "src": "https://apps.apple.com/co/app/bol%C3%ADvar-conmigo/id1551406375"
+    },
+    {
+      "id": 36,
+      "cover": "../images/Projects/conjuntosDesktop.png",
+      "description": "Participación como Frontend en el proyecto Jelpit Conjuntos con tecnologías como React, Sass, metodología BEM",
+      "src": "https://www.jelpit.com/conjuntos/"
+    },
+    {
       "id": 35,
       "cover": "../images/Projects/ionic.png",
       "description": "App de música realizada con ionic y angular",

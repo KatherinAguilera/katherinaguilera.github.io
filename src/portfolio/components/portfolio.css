@@ -44,7 +44,7 @@ h4 p{
   transition-timing-function: ease-in-out;
 }
 .Project figure:hover{
-  transform:scale(1.2);
+  transform:scale(1.5);
 }
 .Project img{
   max-width: 100%;

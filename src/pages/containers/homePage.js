@@ -6,9 +6,8 @@ import Logo from '../../widgets/components/logo';
 import Contact from '../../widgets/components/contact';
 import About from '../../about/components/about';
 import Portfolio from '../../portfolio/components/portfolio';
+import Email from '../../widgets/components/email';
 
-// redenderizar en el navegador
-import ReactDOM from 'react-dom';
 class HomePage extends Component {
   render() {
     return (
@@ -19,6 +18,7 @@ class HomePage extends Component {
           <Contact/>
           <About />
           <Portfolio projects={this.props.data.projects}/>
+          <Email />
         </HomeLayout>
 
     )

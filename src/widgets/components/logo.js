@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../images/logo.jpg'
+import logo from '../../../images/ProfilePhoto.jpg'
 import './logo.css';
 function Logo (props) {
   return (

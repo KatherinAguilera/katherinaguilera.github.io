@@ -1,0 +1,96 @@
+.Email{
+  background: url(../../../images/fleck-white.png), linear-gradient(45deg,#f9989f 0%,  #e2718d 50% );
+  border-top: var(--border-blue);
+  animation: var(--animation-stars);
+  transform: translate3d(0,0,0);
+  height: auto;
+  grid-area: Email;
+  padding: 4rem 1rem;
+}
+.Email .container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.Email form{
+  border: 3px solid var(--color-primary);
+  box-shadow: 0.5rem 0.5rem 0 var(--color-primary);
+  padding: 2rem;
+}
+
+.Email form .input{
+  margin-bottom: 1.5rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.Email form .textarea{
+  display: grid;
+  justify-items: center;
+}
+.Email form .textarea label{
+  margin-bottom: 1rem;
+}
+.Email form div label{
+  text-align: center;
+  font-size: 18px;
+  border-radius: 40% 0 / 20% 0;
+  background-color: #0b032d;
+  padding: .25rem;
+  color: #e2718d;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 50%;
+}
+.Email form div input, .Email form div textarea{
+  border: 2px solid var(--color-primary);
+  background-color: rgba(255, 255, 255, .3);
+  outline: 0;
+  padding: 0 .5rem;
+  font-family: 'SourceCodePro';
+}
+.Email form div input:focus, .Email form div textarea:focus{
+  border: 2px solid #e8b723;
+}
+.Email form div textarea{
+  height: 100px;
+  width: 100%;
+  padding: .25rem .5rem;
+}
+.Email form div input{
+  height: 28px;
+}
+
+.Email form .button{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.Email form .button button{
+  background: #e9b921;
+  color: #0b032d;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: 100px;
+  padding: 2px 4px;
+  border: 3px solid white;
+  clip-path: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
+}
+.Email form .button button:hover{
+  transition: .5s;
+  background-color: transparent;
+}
+
+.Email .alert{
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background: var(--color-primary);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: .25rem .25rem 0 #e9b921;
+}

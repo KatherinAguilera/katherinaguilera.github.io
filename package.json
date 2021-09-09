@@ -29,9 +29,10 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "normalizr": "^3.3.0",
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
+    "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.6.3",
     "react-router-dom": "^5.2.0"

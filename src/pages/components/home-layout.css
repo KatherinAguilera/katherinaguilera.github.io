@@ -22,6 +22,8 @@
   --animation-stars: aitf 28s linear infinite;
   --border-bottom:3px solid #e2718d;
   --border-clip: polygon(6px 0%, calc(100% - 6px) 0%, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0% calc(100% - 6px), 0% 6px);
+  --color-primary: #0D1841;
+  --color-third: #e8b723;
 }
 body{
   margin: 0;
@@ -45,7 +47,8 @@ body{
   grid-template-areas: "Logo Header Header"
                         "Name Name Contact"
                         "About About About"
-                        "Portfolio Portfolio Portfolio";
+                        "Portfolio Portfolio Portfolio"
+                        "Email Email Email";
   grid-template-rows: repeat(3,auto);
   grid-template-columns: repeat(3,1fr);
   /* height: auto; */
@@ -124,7 +127,8 @@ body{
   grid-template-areas: "Logo Header"
                         "Name Contact"
                         "About About"
-                        "Portfolio Portfolio";
+                        "Portfolio Portfolio"
+                        "Email Email";
   grid-template-rows: repeat(3, auto);
   grid-template-columns: 60% 40%;
   width: fit-content;
