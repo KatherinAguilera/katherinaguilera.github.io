@@ -22,7 +22,7 @@ const Email = () => {
   return (
     <section id="email" className="Email">
       <div className="container">
-	      { showMessage ? <div className="alert" role="alert">Gracias por tu interés, pronto me pondré en contacto contigo.</div> : ``}
+	      { showMessage ? <div className="alert" role="alert">Gracias por tu interés, pronto me pondré en contacto contigo.</div> : ''}
         <form onSubmit={sendEmail}>
           <div className="input">
             <label>Nombre:</label>

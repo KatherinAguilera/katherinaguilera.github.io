@@ -94,3 +94,12 @@
   padding: 1rem;
   box-shadow: .25rem .25rem 0 #e9b921;
 }
+
+@media screen and (max-width: 520px){
+  .Email .container{
+    max-width: 320px;
+  }
+  .Email form div label {
+    width: auto;
+  }
+}
