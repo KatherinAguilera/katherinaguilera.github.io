@@ -3,7 +3,7 @@ import './portfolio.css';
 import Projects from './projects';
 import IconHome from './../../iconos/components/home-icon';
 
-function Portfolio (props) {
+const Portfolio = (props) => {
   return (
     <div id="portfolio" className="Portfolio">
       <div className="Home-title">
@@ -28,5 +28,6 @@ function Portfolio (props) {
       </div>
     </div>
   )
-}
-export default Portfolio
+};
+
+export default Portfolio;

@@ -26,7 +26,7 @@ module.exports = (env) => {
       chunkFilename: 'js/[id].[chunkhash].js',
     },
     devServer: {
-      port: 9000,
+      port: 9001,
     },
     module: {
       rules: [
