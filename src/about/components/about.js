@@ -12,7 +12,7 @@ function About (props) {
       {props.children}
 
       <div className="Home-title">
-        <h2>Sobre <span>Mí</span></h2>
+        <h2>Habili<span>dades</span></h2>
         <IconHome />
       </div>
       <div className="Skills">
@@ -24,12 +24,12 @@ function About (props) {
         <div className="Skill-r">
           <img src={ frontend } width="50" height="50" alt="Frontend" />
           <h3>Desarrollo Frontend</h3>
-          <p>HTML5, CSS3, JavaScript, jquery, Responsive design, RactJs, React Native, Angular, PhoneGap, jQuery mobile, stylus, Sass, Gulp, Bootstrap, Webpack. Manejo de Google tag manager, Vuejs, UX/UI.</p>
+          <p>HTML5, CSS3, JavaScript, Ionic, jQuery, Responsive design, ReactJs, React Native, Angular, PhoneGap, Stylus, Sass, Gulp, Bootstrap, Webpack, Gsap, Desarrollo de mailings, Manejo de Google tag manager, Vuejs, Manejo de sistemas de diseño.</p>
         </div>
         <div className="Skill">
           <img src={ backend } width="50" height="50" alt="Backend" />
           <h3>Desarrollo Backend</h3>
-          <p>Java, PHP, C++, MySQL, SQL Server, Laravel, BigQuery</p>
+          <p>Conocimientos en Java, C++, MySQL, SQL Server, BigQuery</p>
         </div>
         <div className="Skill-r">
           <img src={ soporte } width="50" height="50" alt="Soporte" />
