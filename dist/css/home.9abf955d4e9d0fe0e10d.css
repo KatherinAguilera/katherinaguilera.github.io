@@ -481,13 +481,21 @@ h4 p{
   transition-delay: .2s;
   transition-timing-function: ease-in-out;
 }
-.Project figure:hover{
-  transform:scale(1.5);
-}
+
 .Project img{
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: top;
 }
+
+.Project img:hover{
+  max-width: 100%;
+  object-fit: contain;
+  object-position: initial;
+  transform:scale(1.5);
+  transition: 1.5s;
+}
+
 .Project p{
   background: linear-gradient(205deg, #e2718d 0%,  #f9989f 50%);
   border: 3px solid #0b032d;
@@ -610,9 +618,10 @@ h4 p{
   margin-bottom: 1.5rem;
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .8fr 1fr;
   justify-items: center;
 }
+
 .Email form .textarea{
   display: grid;
   justify-items: center;
@@ -647,6 +656,7 @@ h4 p{
   padding: .25rem .5rem;
 }
 .Email form div input{
+  width: 100%;
   height: 28px;
 }
 
@@ -690,5 +700,15 @@ h4 p{
   }
   .Email form div label {
     width: auto;
+  }
+
+  .Email form .input {
+    grid-template-columns: 1fr;
+    row-gap: 14px;
+  }
+
+  .Email form div input {
+    width: 100%;
+    height: 34px;
   }
 }

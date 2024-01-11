@@ -19,6 +19,12 @@
       "src": "https://www.jelpit.com/conjuntos/"
     },
     {
+      "id": 4,
+      "cover": "../images/Projects/pirlov.png",
+      "description": "Pirlov Ecommerce, Frontend",
+      "src": "https://www.prilov.com/"
+    },
+    {
       "id": 35,
       "cover": "../images/Projects/ionic.png",
       "description": "App de música realizada con ionic y angular",
@@ -31,10 +37,10 @@
       "src": "https://conf-302819.web.app/"
     },
     {
-      "id": 33,
-      "cover": "../images/Projects/pokeapi.png",
-      "description": "Buscador de pokemones, agregando favoritos, y tema dark/light mediante Api de Pokemon con React hooks",
-      "src": "https://pokemon-api-hooks.netlify.app/"
+      "id": 9,
+      "cover": "../images/Projects/anime.png",
+      "description": "Landing Series Anime.",
+      "src": "https://katherinaguilera.github.io/anime/"
     },
     {
       "id": 1,
@@ -53,12 +59,6 @@
       "cover": "../images/Projects/redux.png",
       "description": "Construcción de reproductor de videos realizado con ReactJs y redux",
       "src": "https://katherinaguilera.github.io/redux/"
-    },
-    {
-      "id": 4,
-      "cover": "../images/Projects/pirlov.png",
-      "description": "Pirlov Ecommerce, Frontend",
-      "src": "https://www.prilov.com/"
     },
     {
       "id": 5,
@@ -83,12 +83,6 @@
       "cover": "../images/Projects/playvideoredux.jpg",
       "description": "SPA de aplicacion con Redux y React Router",
       "src": "https://playvideosreduxrouter.netlify.com"
-    },
-    {
-      "id": 9,
-      "cover": "../images/Projects/anime.png",
-      "description": "Landing Series Anime.",
-      "src": "https://katherinaguilera.github.io/anime/"
     },
     {
       "id": 10,
@@ -203,12 +197,6 @@
       "src": "https://test-katherine.netlify.app/"
     },
     {
-      "id": 29,
-      "cover": "../images/Projects/ricky-n-morty.png",
-      "description": "Api de ricky and morty con react",
-      "src": "https://katherinaguilera.github.io/rick-and-morty/"
-    },
-    {
       "id": 30,
       "cover": "../images/Projects/AxitLanding.png",
       "description": "Landing Axit",
@@ -225,6 +213,18 @@
       "cover": "../images/Projects/celuMobile.png",
       "description": "CeluMobile (fromulario con validaciones)",
       "src": "https://celu-mobile.netlify.app/"
+    },
+    {
+      "id": 33,
+      "cover": "../images/Projects/pokeapi.png",
+      "description": "Buscador de pokemones, agregando favoritos, y tema dark/light mediante Api de Pokemon con React hooks",
+      "src": "https://pokemon-api-hooks.netlify.app/"
+    },
+    {
+      "id": 29,
+      "cover": "../images/Projects/ricky-n-morty.png",
+      "description": "Api de ricky and morty con react",
+      "src": "https://katherinaguilera.github.io/rick-and-morty/"
     }
   ]
 }

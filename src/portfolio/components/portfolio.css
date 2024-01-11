@@ -43,13 +43,21 @@ h4 p{
   transition-delay: .2s;
   transition-timing-function: ease-in-out;
 }
-.Project figure:hover{
-  transform:scale(1.5);
-}
+
 .Project img{
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: top;
 }
+
+.Project img:hover{
+  max-width: 100%;
+  object-fit: contain;
+  object-position: initial;
+  transform:scale(1.5);
+  transition: 1.5s;
+}
+
 .Project p{
   background: linear-gradient(205deg, #e2718d 0%,  #f9989f 50%);
   border: 3px solid #0b032d;

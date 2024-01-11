@@ -3,7 +3,7 @@ import  './contact.css';
 import  contact from '../../../images/botones/contact.svg'
 import  linkendin from '../../../images/botones/linkendin.png'
 import  github from '../../../images/botones/github.png'
-import  twitter from '../../../images/botones/twitter.png'
+import  twitter from '../../../images/botones/iconX.webp'
 
 function Contact (props) {
   return (
