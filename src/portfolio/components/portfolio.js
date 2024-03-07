@@ -14,7 +14,7 @@ const Portfolio = (props) => {
       {
           props.projects.map((item) =>{
             return <Projects key={item.id} {...item} />
-          })
+          }) 
         }
       <div className="Moon">
         <h4>Katherine Aguilera 2023 - Design & Development
