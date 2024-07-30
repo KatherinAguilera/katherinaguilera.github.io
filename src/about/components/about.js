@@ -8,7 +8,7 @@ import frontend from '../../../images/iconos/frontend.png';
 
 function About (props) {
   return (
-    <div id="about" className="About">
+    <div id="about" className="About"> 
       {props.children}
 
       <div className="Home-title">
