@@ -48,5 +48,7 @@ uncomment js and css line and replace in the index
 
 
 ```bash
-   <script src="dist/js/home.0cadef6868e56005d7bc.js"></script>
+   <link rel="stylesheet" href="dist/css/home.076f543ecabc8131dc37.css">
+   <script src="dist/js/home.076f543ecabc8131dc37.js"></script>
+
 ```
